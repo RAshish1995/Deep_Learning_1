@@ -41,7 +41,7 @@ for i in range(1,101):
         out[i-1]= i
 #print(out)
 
-file1 = open("software1.txt","w")   
+file1 = open("Software1.txt","w")   
 # \n is placed to indicate EOL (End of Line) 
 file1.write(str(out)) 
 #file1.writelines(L) 
@@ -187,7 +187,7 @@ def dec_to_bin(X):
     #print(x_)
     return x_
 
-file2 = open("software2.txt","w")   
+file2 = open("Software2.txt","w")   
 # \n is placed to indicate EOL (End of Line) 
 file2.write(str(last)) 
 #file1.writelines(L) 
