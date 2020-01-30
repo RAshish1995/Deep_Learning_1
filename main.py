@@ -91,6 +91,8 @@ def dec_to_bin(X):
 
 
 net = Net()
+
+'''
 out = [0 for i in range(len(data))]
 for i in range(0,(len(data_1))):
     if(data[0][i]%3==0 and data[0][i]%5 == 0):
@@ -105,7 +107,7 @@ for i in range(0,(len(data_1))):
 net.load_state_dict(torch.load('./model/model.pt'))
 net.eval()
 
-
+'''
 
 #print(data[0])
 test = dec_to_bin(data)
