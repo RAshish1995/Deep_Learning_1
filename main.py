@@ -104,10 +104,10 @@ for i in range(0,(len(data_1))):
         out[i]= 'buzz'
     else:
         out[i]= data[0][i]
+        
+'''
 net.load_state_dict(torch.load('./model/model.pt'))
 net.eval()
-
-'''
 
 #print(data[0])
 test = dec_to_bin(data)
