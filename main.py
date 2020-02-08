@@ -46,7 +46,7 @@ file1.write(str(out))
 #file1.writelines(L) 
 file1.close()
 
-
+np.savetxt('Software1.txt',out,fmt= '%s')
 
 
 #data_1 = pd.read_csv('../input1.txt',sep="\t",header = None)
@@ -191,6 +191,7 @@ file2.write(str(last))
 #file1.writelines(L) 
 file2.close()
 
+np.savetxt('Software2.txt',last,fmt= '%s')
 
 acc_fizz =  accuracy_('fizz')
 
